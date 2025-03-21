@@ -1,4 +1,4 @@
-import { Directive, input } from "@angular/core";
+import { Directive, input, inject, ElementRef } from "@angular/core";
 
 @Directive({
   selector: "a[appSafeLink]",
